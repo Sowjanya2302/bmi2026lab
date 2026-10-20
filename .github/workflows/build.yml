@@ -51,6 +51,6 @@ jobs:
     - name: Deploy to Azure Web App
       uses: azure/webapps-deploy@v3
       with:
-        app-name: 'YOUR_EXACT_AZURE_WEB_APP_NAME'
+        app-name: 'BMI-A00082447'
         publish-profile: ${{ secrets.AZURE_WEBAPP_PUBLISH_PROFILE }}
         package: ./myapp
