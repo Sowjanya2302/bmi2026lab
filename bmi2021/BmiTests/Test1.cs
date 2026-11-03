@@ -1,4 +1,6 @@
-﻿namespace BmiTests;
+﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
+
+namespace BmiTests;
 
 [TestClass]
 public sealed class Test1
