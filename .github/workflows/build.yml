@@ -22,10 +22,10 @@ jobs:
       run: dotnet restore
       
     - name: Build
-      run: dotnet build --configuration Release --no-restore
+      run: dotnet build bmi2025.sln --configuration Release --no-restore
       
     - name: Test
-      run: dotnet test --no-build --verbosity normal
+      run: dotnet test bmi2025.sln --no-build --configuration Release
 
     - name: Publish
       run: dotnet publish -c Release -o ./myapp
